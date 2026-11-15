@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-systems"
+version = "0.1.0"
+description = "A working reference implementation of the 10 agentic-AI concepts: harness, loop, context, tools, memory, orchestration, guardrails, evals, human-in-the-loop, observability."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/abel30567/agentic-ai-concepts"
+
+[tool.setuptools.packages.find]
+include = ["agent_systems*"]
